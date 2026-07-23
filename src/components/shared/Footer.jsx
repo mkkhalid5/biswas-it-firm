@@ -73,7 +73,9 @@ const Footer = () => {
                         <button
                             type="submit"
                             className="flex h-12 w-12 items-center justify-center rounded-full bg-[#2563EB] transition-all duration-300 hover:bg-[#1D4ED8]"
-                        > <IoPaperPlaneOutline className="text-xl text-white" /> </button>
+                        > 
+                        <span className="sr-only">Subscribe</span>
+                        <IoPaperPlaneOutline className="text-xl text-white" aria-label="Submit form" /> </button>
                     </form>
                 </div>
 
