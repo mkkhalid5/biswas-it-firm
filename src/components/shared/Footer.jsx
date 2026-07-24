@@ -5,6 +5,7 @@ import { VscTwitter } from 'react-icons/vsc';
 import { FiLinkedin } from 'react-icons/fi';
 import { FaWhatsapp } from 'react-icons/fa';
 import { IoPaperPlaneOutline } from 'react-icons/io5';
+import "@/app/globals.css"
 
 const Footer = () => {
     const socialIcons = [
@@ -19,7 +20,7 @@ const Footer = () => {
                 {/* company details */}
                 <div className='space-y-4'>
                     <div className='flex items-center gap-1 '>
-                        <Image  src={logo} alt='biswasitfirm' height={36} width={36} className='bg-white rounded-full w-9 h-9' />
+                        <Image rel='preload' src={logo} alt='biswasitfirm' height={36} width={36} className='bg-white rounded-full w-9 h-9' />
                         <p className='font-bold text-xl'>Biswas<span className='text-blue-500'>IT</span> Firm</p>
                     </div>
                     <p className='text-[#FFFFFF]/50'>আধুনিক সফটওয়্যার সমাধানে বাংলাদেশের বিশ্বস্ত অংশীদার।</p>
