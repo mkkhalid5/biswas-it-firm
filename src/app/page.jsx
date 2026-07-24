@@ -1,9 +1,9 @@
+import About from "@/components/ui/About";
 import ContactForm from "@/components/ui/ContactForm";
 
 const Home = () => {
     return (
         <div>
-            
             <ContactForm />
         </div>
     )
