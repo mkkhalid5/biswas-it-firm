@@ -1,7 +1,10 @@
+import ContactForm from "@/components/ui/ContactForm";
+
 const Home = () => {
     return (
         <div>
-            this is home page
+            
+            <ContactForm />
         </div>
     )
 }
